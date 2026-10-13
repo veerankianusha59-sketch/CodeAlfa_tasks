@@ -24,7 +24,7 @@ present useful insights.
 ## Task 2: Quotes Sentiment Analysis
 
 ### Description
-Analyzed the sentiment of 100 quotes using Textbook.
+Analyzed the sentiment of 100 quotes using TextBlob.
 Classified quotes into Positive, Neutral, and Negative
 categories based on sentiment polarity.
 
@@ -56,5 +56,5 @@ These projects demonstrate my skills in data collection,
 data analysis, sentiment classification, and visualization
 using Python.
 
-Note: Textbook sentiment classifications are estimates
+Note: TextBlob sentiment classifications are estimates
 and may not accurately represent every quote's meaning.
