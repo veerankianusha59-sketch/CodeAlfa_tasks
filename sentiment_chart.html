@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quotes Sentiment Analysis</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+.bar-container {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.bar {
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    min-width: 35px;
+    box-sizing: border-box;
+}
+
+.positive { background: #28a745; }
+.neutral { background: #e0a800; }
+.negative { background: #dc3545; }
+
+p { font-size: 16px; }
+</style>
+</head>
+
+<body>
+<div class="card">
+<h1>Quotes Sentiment Analysis</h1>
+<p>Total Quotes: 100</p>
+
+<div class="bar-container">
+<b>Positive: 54</b>
+<div class="bar positive" style="width:54%">
+54%
+</div>
+</div>
+
+<div class="bar-container">
+<b>Neutral: 28</b>
+<div class="bar neutral" style="width:28%">
+28%
+</div>
+</div>
+
+<div class="bar-container">
+<b>Negative: 18</b>
+<div class="bar negative" style="width:18%">
+18%
+</div>
+</div>
+
+<p>Positive quotes are the largest category in this dataset.</p>
+</div>
+</body>
+</html>
