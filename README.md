@@ -1,60 +1,43 @@
-# CodeAlpha Data Analytics Internship Tasks
+# Code alpha Data Analytics Internship
 
-This repository contains my Data Analytics projects completed
-as part of my Codealpha internship.
+## About
+This repository contains the projects completed during my
+Data Analytics Internship at Code alpha.
 
-## Task 1: Quotes Data Analysis and Visualization
+## Tasks Completed
 
-### Description
-Analyzed a dataset containing 100 quotes using Python.
-Performed data exploration and created a dashboard to
-present useful insights.
+### Task 1: Quotes Data Analysis and Visualization
+- Collected and analyzed quotes data.
+- Examined quote authors and text.
+- Saved the results in CSV format.
 
-### Technologies
+### Task 2: Exploratory Data Analysis (EDA)
+- Examined dataset structure and data quality.
+- Checked missing values and duplicate records.
+- Analyzed quote lengths and author distribution.
+- Created an HTML dashboard and insights report.
+
+### Task 3: Product Review Sentiment Analysis
+- Analyzed sample product reviews using Python.
+- Classified reviews into positive and negative sentiments.
+- Explored detected emotions in the reviews.
+- Generated CSV results, an HTML chart, and a report.
+
+## Technologies Used
 - Python
 - Pandas
-- HTML
-- CSS
+- Text blob
+- HTML and CSS
+- CSV Data Analysis
 
-### Files
-- scraped_data.csv
-- dashboard.py
-- quotes_dashboard.html
+## Key Learning Outcomes
+- Data cleaning and exploration
+- Sentiment analysis
+- Data interpretation
+- Report generation
+- GitHub project management
 
-## Task 2: Quotes Sentiment Analysis
+## Author
+Anusha Veeranki
 
-### Description
-Analyzed the sentiment of 100 quotes using TextBlob.
-Classified quotes into Positive, Neutral, and Negative
-categories based on sentiment polarity.
-
-### Technologies
-- Python
-- Pandas
-- Textbook
-- HTML
-- CSS
-
-### Results
-
-| Sentiment | Count | Percentage |
-|-----------|------:|-----------:|
-| Positive  | 54    | 54%        |
-| Neutral   | 28    | 28%        |
-| Negative  | 18    | 18%        |
-| Total     | 100   | 100%       |
-
-### Files
-- sentiment_analysis.py
-- quotes_sentiment_analysis.csv
-- sentiment_chart.py
-- sentiment_chart.html
-
-## Conclusion
-
-These projects demonstrate my skills in data collection,
-data analysis, sentiment classification, and visualization
-using Python.
-
-Note: TextBlob sentiment classifications are estimates
-and may not accurately represent every quote's meaning.
+GitHub: https://github.com/veerankianusha59-sketch
