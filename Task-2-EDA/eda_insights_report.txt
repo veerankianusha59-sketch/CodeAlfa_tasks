@@ -1,0 +1,43 @@
+
+EXPLORATORY DATA ANALYSIS (EDA) REPORT
+=====================================
+
+1. DATASET OVERVIEW
+-------------------
+Total quotes: 100
+Unique authors: 50
+Total columns: 3
+
+2. DATA QUALITY
+---------------
+Missing values: 0
+Duplicate rows: 0
+
+3. QUOTE LENGTH ANALYSIS
+------------------------
+Average quote length: 122.27 characters
+Shortest quote: 34 characters
+Longest quote: 1084 characters
+
+4. TOP 5 AUTHORS
+----------------
+Author
+Albert Einstein    10
+J.K. Rowling        9
+Marilyn Monroe      7
+Dr. Seuss           6
+Mark Twain          6
+
+5. KEY FINDINGS
+---------------
+- The dataset contains 100 quotes.
+- The quotes come from 50 unique authors.
+- No missing values or duplicate rows were found.
+- Quote lengths vary considerably.
+
+6. CONCLUSION
+-------------
+EDA helped identify the dataset structure, data quality,
+author distribution, and quote-length patterns.
+
+Note: Findings apply only to this dataset.
