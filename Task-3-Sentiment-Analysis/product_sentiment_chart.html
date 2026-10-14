@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Sentiment Analysis</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5fa;
+    padding: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 3px 12px #cccccc;
+}
+h1 {
+    text-align: center;
+    color: #243b64;
+}
+.item {
+    margin: 22px 0;
+}
+.bar {
+    background: #e5e7eb;
+    height: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.bar div {
+    height: 24px;
+    border-radius: 12px;
+}
+.note {
+    color: #555;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+<h1>Product Review Sentiment</h1>
+<p>Total reviews analyzed: 11</p>
+
+
+    <div class="item">
+        <p>Positive 😊: 7 reviews (63.64%)</p>
+        <div class="bar">
+            <div style="width:63.63636363636363%; background:#22a06b;">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="item">
+        <p>Negative 😞: 4 reviews (36.36%)</p>
+        <div class="bar">
+            <div style="width:36.36363636363637%; background:#e5484d;">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="item">
+        <p>Neutral 😐: 0 reviews (0.00%)</p>
+        <div class="bar">
+            <div style="width:0.0%; background:#e5a000;">
+            </div>
+        </div>
+    </div>
+    
+
+<h3>Conclusion</h3>
+<p>Most reviews in this sample were classified as positive.</p>
+
+<p class="note">
+These are sample reviews created for educational purposes,
+not real customer feedback. Sentiment labels are estimates.
+</p>
+</div>
+</body>
+</html>
