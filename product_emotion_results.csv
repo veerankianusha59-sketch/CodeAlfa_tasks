@@ -1,0 +1,12 @@
+Product,Review,Polarity,Sentiment,Emotion
+Headphones,"Excellent product, amazing sound quality!",0.7000000000000001,Positive,Happiness
+Headphones,I love these headphones.,0.5,Positive,Happiness
+Headphones,Very poor sound and uncomfortable to wear.,-0.20666666666666667,Negative,Dissatisfaction
+Smartphone,The phone is fantastic and works perfectly.,0.7,Positive,Happiness
+Smartphone,Battery life is terrible and disappointing.,-0.8,Negative,Anger
+Smartphone,"The phone is okay, nothing special.",0.4285714285714286,Positive,No clear emotion
+Laptop,This laptop is fast and easy to use.,0.31666666666666665,Positive,No clear emotion
+Laptop,The laptop is slow and expensive.,-0.4,Negative,Dissatisfaction
+Laptop,I am very happy with this laptop.,1.0,Positive,Happiness
+Smartwatch,The smartwatch is useful and looks great.,0.55,Positive,No clear emotion
+Smartwatch,The watch is average.,-0.15,Negative,No clear emotion
